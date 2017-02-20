@@ -11,7 +11,7 @@ public class WelkomstFrame extends JFrame implements ActionListener {
 	private int gedaan;
 	private Werkplaats deWerkplaats;
 	private ParkeerPlaats deParkeerPlaats;
-	Opslag b = new Opslag("opslag 1");
+	OpslagInterface b = new Opslag("opslag 1");
 
 	public WelkomstFrame(Opslag deOpslag, Werkplaats deWerkplaats, ParkeerPlaats deParkeerPlaats) {
 		this.deOpslag = deOpslag;

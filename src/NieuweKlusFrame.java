@@ -50,7 +50,11 @@ public class NieuweKlusFrame extends JFrame implements ActionListener {
 		for (String str : monteurArray) {
 			kiesLijst.addItem(str);
 		}
+		
+		
 		kiesLijst.setSelectedIndex(monteurList.size() - 2);
+		
+		
 		kiesLijst.addActionListener(this);
 
 		txf1 = new JTextField(5);

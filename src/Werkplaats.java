@@ -18,7 +18,7 @@ public class Werkplaats {
 
 	}
 
-	public void nieuweKlus(){
+	public void voegKlusToe(){
 		
 		klusnummer++;
 	}

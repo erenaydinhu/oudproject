@@ -4,9 +4,18 @@ import java.util.ArrayList;
 
 public class ParkeerPlek {
 	
+	
 	private int plekNr;
 	private boolean isBeschikbaar;
 	private ArrayList<java.util.Date> reservedDates = new ArrayList<java.util.Date>();
+	
+	private ArrayList<String> gereserveerdeKlanten = new ArrayList<String>();
+	
+	private static final String placeholderString = "null";
+	public void voegGereserveerdePlaceholderToe(){
+		gereserveerdeKlanten.add(placeholderString);
+	}
+	
 
 	public ParkeerPlek(int pnr){
 		plekNr = pnr;
