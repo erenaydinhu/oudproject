@@ -24,7 +24,7 @@ public class Bestelling {
 
 	}
 
-	public Calendar getDatum() {
+	public Calendar getDatum(Object newParam) {
 		return aankomstdatum;
 	}
 
